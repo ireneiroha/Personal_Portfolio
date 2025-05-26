@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce1cfb39a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- header section -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo" alt="">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Back-End Developer & AI Software Engineer</p>
+            <h1>Hi, I'm <span>Ezinne</span><br>Kalu from Nigeria</h1>
+        </div>
+    </div>
+</div>
+
+<!-- about section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/abt.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a backend developer with a growing specialization in Artificial Intelligence. I build robust, scalable server-side applications and integrate intelligent systems that solve real-world problems. My expertise spans RESTful APIs, database management, and automation workflows, while my AI work involves Python-based solutions in natural language processing, predictive modeling, and machine learning. I’m passionate about writing clean code, optimizing performance, and creating backend systems that power smart, data-driven applications.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Back-End</span><br>Design and Manage API</li>
+                        <li><span>Databases</span><br>Manage Data Storage Solution(SQL and NoSQL)</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>AI</span><br>Machine Learning and Data Analysis</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 - Current</span><br>Freelancing</li>
+                        <li><span>2024 - 2025</span><br>Developed and maintained RESTful APIs and backend services using Java and the Spring Boot framework at Tripod Oil and Gas</li>
+                        <li><span>November 2004</span><br>Internship at CodeCraft USA - Assisted in the development of backend features using Java and Spring Boot.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - 2025</span><br>Diploma in Software Engineering at PLP</li>
+                        <li><span>2009 - 2011</span><br>Accounting at ASPOLY</li>
+                        <li><span>2006 - 2009</span><br>Accounting at ASPOLY</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Dev</h2>
+                <p>I'm a passionate developer with a love for creating innovative solutions. My journey in tech began at a young age, and I am driven by the challenge of solving complex problems and the joy of continuous learning..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Back-End</h2>
+                <p>I Build and maintain server-side logic</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I create visually appealing and user-friendly Web app designs, focused on enhancing functionality and delivering an excellent user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Cloud Vendor API</h3>
+                    <p>This is a Cloud Vendor API is a backend service that allows users to manage cloud vendors efficiently. It provides CRUD (Create, Read, Update, Delete) operations for handling vendor details, ensuring seamless integration with cloud-based infrastructures.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Simple Calculator</h3>
+                    <p>This is a simple calculator for a Python program that asks the user to input two numbers and a mathematical operation (addition, subtraction, multiplication, or division). Perform the operation based on the user's input and print the result.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Email Web App</h3>
+                    <p>This project is basically designed to manage email accounts, domains, and configurations. It allows administrators to create, read, update, and delete email users and settings while ensuring security and efficiency in email management.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@ireneiroha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+2348062208160</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/EZINNE KALU- CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xblgayrj" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ezinne Kalu. Made with <i class="fas fa-heart"></i> maximum devotion to Web Dev</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
